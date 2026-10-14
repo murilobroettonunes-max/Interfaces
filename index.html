@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Aplicativo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>Olá, seja bem-vindo! 👋</h1>
+    <p>Explore seu aplicativo</p>
+  </header>
+
+  <main class="container">
+    <input
+      type="search"
+      id="pesquisa"
+      placeholder="🔎 Pesquisar..."
+    >
+
+    <h2>Menu principal</h2>
+
+    <section class="card">
+      <h3>📱 Meu espaço</h3>
+      <p>Acesse suas informações pessoais.</p>
+      <button data-pagina="Meu espaço">Acessar</button>
+    </section>
+
+    <section class="card">
+      <h3>✨ Descobrir</h3>
+      <p>Explore novidades e possibilidades.</p>
+      <button data-pagina="Descobrir">Explorar</button>
+    </section>
+
+    <section class="card">
+      <h3>⚙️ Configurações</h3>
+      <p>Personalize sua experiência.</p>
+      <button data-pagina="Configurações">Configurar</button>
+    </section>
+
+    <p id="mensagem" aria-live="polite"></p>
+  </main>
+
+  <nav>
+    <a href="#inicio">🏠 Início</a>
+    <a href="#pesquisa">🔎 Explorar</a>
+    <a href="#perfil">👤 Perfil</a>
+  </nav>
+
+</body>
+</html>

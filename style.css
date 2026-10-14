@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f2f4f8;
+  color: #20243a;
+}
+
+header {
+  background: linear-gradient(135deg, #6254e8, #9278ff);
+  color: white;
+  padding: 30px 22px;
+  border-radius: 0 0 25px 25px;
+}
+
+header h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+header p {
+  opacity: 0.9;
+}
+
+.container {
+  max-width: 450px;
+  margin: auto;
+  padding: 22px;
+}
+
+#pesquisa {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 25px;
+  border: 1px solid #e5e5ef;
+  border-radius: 12px;
+  background: white;
+  font-size: 15px;
+  outline-color: #6254e8;
+}
+
+h2 {
+  margin-bottom: 16px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 5px 20px #20243a0d;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card h3 {
+  color: #6254e8;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #73778a;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 10px;
+  background: #6254e8;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4e40cf;
+}
+
+nav {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 18px 8px;
+  background: white;
+  box-shadow: 0 -3px 15px #0000000a;
+}
+
+nav a {
+  color: #6254e8;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#mensagem {
+  text-align: center;
+  color: #6254e8;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+@media (max-width: 350px) {
+  header h1 {
+    font-size: 21px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+}
